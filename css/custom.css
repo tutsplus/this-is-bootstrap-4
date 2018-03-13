@@ -1,0 +1,23 @@
+/* Body. */
+body {
+    /* Required for Scrollspy. */
+    position: relative; 
+}
+
+/* Navigation. */
+.navbar {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
+}
+
+.navbar-brand img {
+    width: 75px;
+    height: 75px;
+}
+
+#main-nav {
+    background-color: #fff;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
